@@ -1,0 +1,78 @@
+@use "/src/var.scss" as vr;
+
+.PRJ-root {
+    border-radius: 5%;
+    background-color: vr.$background-color-projet;
+    display: grid;
+    gap: 2%;
+    grid-template-columns: 1fr 1fr;
+    width: min-content;
+    width: 100%;
+    height: 100%;
+
+    &>.PRJ-image>img {
+        height: 100%;
+        border-top-left-radius: 5%;
+        border-bottom-left-radius: 5%;
+    }
+
+    &>.PRJ-content {
+        height: 100%;
+        display: grid;
+        grid-template-rows: min-content min-content auto auto;
+        align-items: baseline;
+
+        &>.PRJ-header {
+            display: flex;
+            height: min-content;
+
+            &>.PRJ-title {
+                margin: 0;
+                text-align: center;
+                width: 100%;
+            }            
+        }
+
+        &>.PRJ-link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1em;
+            height: 2em;
+
+            &>li {
+                height: 2em;
+                width: min-content;
+
+                &>a {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 2em;
+                }
+            }
+
+            .PRJ-link-img {
+                height: 2em;
+                width: 2em;
+            }
+        }
+
+
+        &>.PRJ-tech {
+            align-self: end;
+
+            & img {
+                height: 2em;
+                width: 2em;
+            }
+        }
+    }
+}
+
+// special css for image
+.PRJ-link-img {
+    &-Github {
+        filter: invert(1);
+    }
+}

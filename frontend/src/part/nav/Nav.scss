@@ -1,0 +1,59 @@
+@use "/src/var.scss" as vr;
+
+nav {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background-color: vr.$background-color-nav;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    & > div {
+        display: flex;
+    }
+
+    & > ul#nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 5%;
+    }
+
+    & > h2 {
+        padding: 0;
+        margin: 0;
+
+        margin-right: 10px;
+        font-size: 22pt;
+    }
+
+    & a {
+        text-decoration: none;
+        color: white;
+    }
+
+    & a.active {
+        text-decoration: underline;
+    }
+}
+
+footer {
+    width: 100%;
+    background-color: vr.$background-color-nav;
+    color: vr.$text-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 22pt;
+}
+
+footer>h3 {
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: vr.$text-color;
+}

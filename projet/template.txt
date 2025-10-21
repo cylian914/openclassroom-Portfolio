@@ -1,0 +1,1 @@
+Contexte: Situation et enjeux du projet\n\nObjectifs: Buts à atteindre et problématiques à résoudre\n\nStack technique: Technologies et outils utilisés\n\nCompétences développées: Apprentissages et défis relevés
