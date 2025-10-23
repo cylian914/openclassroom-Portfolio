@@ -36,7 +36,7 @@ exports.getProject = (id, useCache = false) => {
     if (useCache && projCache.has(id))
         return projCache.get(id);
     let ret = {};
-    ret = JSON.parse(readFile(path, "info.json", `{\n\t"title": "",\n\t"desc": ""\n}`))
+    ret = JSON.parse(readFile(path, "info.json", `{\n\t"title": "",\n\t"desc": ""\n\t"comp:": [""]}`))
     ret = {
         ...ret,
         SCREEN: readImageDir(path, "/SCREEN/"),

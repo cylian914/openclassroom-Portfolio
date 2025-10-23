@@ -1,4 +1,6 @@
 {
 	"title": "Kasa",
-	"desc": "Contexte: Crée un site dynamique pour une entreprise de location d’appartements entre particuliers.\n\nObjectifs: Crée un site avec react et utiliser les donée du backend pour dynamiquement généré une page d'accueille avec tout les logement & les different page de description des logement\n\nStack technique: React avec vueJS a été utiliser\n\nCompétences développées: Creation de composant reutilisatble (d'on certain, comme le system de pour aficher plusierre image, on été reutiliser sur le portfolio) et utiliser react pour dynamiquement crée les page en utiliser les donée du backend"
+	"desc": "Contexte: Crée un site dynamique pour une entreprise de location d’appartements entre particuliers.\n\nObjectifs: Crée un site avec react et utiliser les donée du backend pour dynamiquement généré une page d'accueille avec tout les logement & les different page de description des logement\n\nStack technique: React avec vueJS a été utiliser\n\nCompétences développées: Creation de composant reutilisatble (d'on certain, comme le system de pour aficher plusierre image, on été reutiliser sur le portfolio) et utiliser react pour dynamiquement crée les page en utiliser les donée du backend",
+	"comp": ["Creation de composant avec react", "Utiliser le Scss pour crée du css", "Crée dynamiquement des page"],
+	"tag": ["React", "Frontend", "Scss"]
 }

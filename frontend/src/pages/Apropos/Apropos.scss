@@ -1,0 +1,12 @@
+.Apropos-parcour {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Apropos-desc, .Apropos-parcours {
+    & > p, h3 {
+        text-align: center;
+        width: 100%;
+        font-size: 2em;
+    }
+}

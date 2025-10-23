@@ -3,13 +3,11 @@ import "./Project.scss"
 import { useState } from "react"
 import SlideShow from "../SlideShow/SlideShow"
 
-
-
-function Project(prj) {
-    const [project, setProject] = useState(prj.project);
+function Project({ prj }) {
+    const [project, setProject] = useState(prj);
 
     return (<>
-        <div className="PRJ-root">
+        <div className={"PRJ-root " + "tag-" + project.tag?.join(" tag-")}>
             <div className="PRJ-image">
                 <SlideShow images={project.SCREEN} />
             </div>
@@ -19,11 +17,11 @@ function Project(prj) {
                         {project.title}
                     </h2>
                 </div>
-                {console.log(project)}
-                {project.LINK.length === 0 ? <></> :
+
+                {!project.LINK?.length ? <></> :
                     <>
                         <ul className="PRJ-link">
-                            {project.LINK.map((l) => {
+                            {project.LINK?.map((l) => {
                                 return (<>
                                     <li key={l.text}>
                                         <a href={l.link}>
@@ -39,6 +37,7 @@ function Project(prj) {
                         </ul>
                     </>
                 }
+
                 <div className='PRJ-desc'>
                     <p>
                         {project.desc.split("\n").map((t) => {
@@ -46,19 +45,27 @@ function Project(prj) {
                         })}
                     </p>
                 </div>
+
                 <ul className='PRJ-tech'>
-                    {project.TECH.length === 0 ? <></> : <>
+                    {!project.TECH?.length ? <></> : <>
                         <h3>Technologie: </h3>
-                        <div>
-                            {project.TECH.map((t) => {
-                                return <>
-                                    <li key={t.title}><img src={t.image} alt={t.text} title={t.text} /></li>
-                                </>
-                            })}
+                        {project.TECH?.map((t) => {
+                            return <>
+                                <li key={t.title}><img src={t.image} alt={t.text} title={t.text} /></li>
+                            </>
+                        })}
 
-                        </div>
                     </>}
+                </ul>
 
+                <ul className="PRJ-tag">
+                    {!project.tag?.length ? <></> : <>
+                        <h3>Tag:</h3>
+                        {project.tag?.map((tag) => {
+                            return <>
+                                <li key={project.title + "-" + tag}>{tag}</li>
+                            </>
+                        })}</>}
                 </ul>
             </div>
         </div >

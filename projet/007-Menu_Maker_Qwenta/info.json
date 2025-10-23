@@ -1,4 +1,6 @@
 {
 	"title": "Menu Maker",
-	"desc": "Contexte: Faire la gestion du projet le Menu Maker de Qwenta\n\nObjectifs: Crée un system de veille technologique pour rester informer des chnagement, crée un document des besoin technique, crée un Kaban en utiliser le document technique et crée une diapo\n\nStack technique: Fredle, Notion & libreoffice\n\n"
+	"desc": "Contexte: Faire la gestion du projet le Menu Maker de Qwenta\n\nObjectifs: Crée un system de veille technologique pour rester informer des chnagement, crée un document des besoin technique, crée un Kaban en utiliser le document technique et crée une diapo\n\nStack technique: Fredle, Notion & libreoffice\n\n",
+	"comp": ["Crée un kaban", "Crée une veille technique"],
+	"tag": []
 }

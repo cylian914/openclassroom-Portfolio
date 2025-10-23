@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import './Index.scss'
-import { Link } from 'react-router';
 import Project from '../../part/project/Project';
 import { getPined } from '../../data/Data';
 
@@ -9,8 +8,6 @@ function App() {
 
   useEffect(() => {
     getPined((d) => {
-      console.log(d);
-      
       setProject(d);
     })
   }, []);
@@ -18,12 +15,16 @@ function App() {
   return (
     <>
       <div className='Index-root page'>
-        <h1 className='Index-title'>Cylian Charbonnier - Portfolio </h1>
+        <div className='Index-desc'>
+          <p>Dévlopeur Full-Stack passioné par le design/création/utlisation des protocol/api<br/>
+          En utilisant NodeJS, expressJS & MongoDB pour le backend et React pour le frontend</p>
+        </div>
+
         <ul className='Index-prj'>
           {project.map((p) => {
             return (<>
               <li key={`${p.title}`}>
-                <Project project={p}></Project>
+                <Project prj={p}></Project>
               </li>
             </>)
           })}

@@ -1,0 +1,18 @@
+.Comp-title {
+    text-align: center;
+}
+
+.Comp-center {
+    text-align: center;
+}
+
+.Comp-prjs-prj {
+    & > ul {
+        list-style: circle;
+    }
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+    margin-bottom: 2%;
+}

@@ -5,19 +5,20 @@ nav {
     padding-right: 5vw;
     background-color: vr.$background-color-nav;
     
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
-
-    & > div {
-        display: flex;
-    }
+    align-items: center;
 
     & > ul#nav {
         display: flex;
         justify-content: flex-end;
         align-items: center;
         gap: 5%;
+    }
+
+    &>.nav-title {
+        text-align: center;
     }
 
     & > h2 {

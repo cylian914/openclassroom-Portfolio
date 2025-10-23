@@ -1,4 +1,6 @@
 {
 	"title": "Page dynamic avec JS",
-	"desc": "Contexte: Pour ce projet d'ai due développer le front-end pour l’agence ArchiWebos\n\nObjectifs: Crée une page qui utilise le javaScript pour récupérer dynamiquement les données des travaux via l’API, crée un system de tri des projets par catégorie, crée une page & un system d'autentification & crée un modal pour ajouter/modifier/suprimer les projet\n\nStack technique: JS, html & css on été utiliser. JS a été ustiliser pour que le site soit dynamique et l'html & css a été utiliser pour les partit static du site\n\nCompétences développées: Utilisation de JS pour dinamiquement modifier un site et crée un modal"
+	"desc": "Contexte: Pour ce projet d'ai due développer le front-end pour l’agence ArchiWebos\n\nObjectifs: Crée une page qui utilise le javaScript pour récupérer dynamiquement les données des travaux via l’API, crée un system de tri des projets par catégorie, crée une page & un system d'autentification & crée un modal pour ajouter/modifier/suprimer les projet\n\nStack technique: JS, html & css on été utiliser. JS a été ustiliser pour que le site soit dynamique et l'html & css a été utiliser pour les partit static du site\n\nCompétences développées: Utilisation de JS pour dinamiquement modifier un site et crée un modal",
+	"comp": ["Modifier le html avec JS", "Crée un modal", "Utiliser fetch pour recuper des information du server"],
+	"tag": ["JS", "css", "html", "frontend", "api"]
 }

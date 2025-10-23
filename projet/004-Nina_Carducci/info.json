@@ -1,4 +1,6 @@
 {
 	"title": "Debuger & otpimliser un site",
-	"desc": "Contexte: Pour ce projet j'ai du débeuger, optimiser et crée le SEO d'un site d'herbergement d'image pour Nina Carducci\n\nObjectifs: Debeuger le site pour identifier et corriger ces bug, crée le SEO et le rendre plus accessibile\n\nStack technique: Bootstrap été utiliser sur le site pour gere l'affchage avec JS, lighthouse & wave evaluation tool on été utiliser pour trouver les endroit ou le chargement est lent & tout les probleme d'accessibilité\n\nCompétences développées: Identification & corretion des bug d'un site et utiliser des outil pour ajouter le CEO & trouver les probleme de preformance et d'accessibilité"
+	"desc": "Contexte: Pour ce projet j'ai du débeuger, optimiser et crée le SEO d'un site d'herbergement d'image pour Nina Carducci\n\nObjectifs: Debeuger le site pour identifier et corriger ces bug, crée le SEO et le rendre plus accessibile\n\nStack technique: Bootstrap été utiliser sur le site pour gere l'affchage avec JS, lighthouse & wave evaluation tool on été utiliser pour trouver les endroit ou le chargement est lent & tout les probleme d'accessibilité\n\nCompétences développées: Identification & corretion des bug d'un site et utiliser des outil pour ajouter le CEO & trouver les probleme de preformance et d'accessibilité",
+	"comp": ["Identifier/Debeuger un site", "Crée le CEO", "Utiliser les outil pour ameliorer le rendu & l'accessibilité"],
+	"tag": ["Frontend", "Debug", "SEO", "Accesibiliter"]
 }

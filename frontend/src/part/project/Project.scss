@@ -60,11 +60,29 @@
 
 
         &>.PRJ-tech {
-            align-self: end;
-
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 2%;
+            & > h3 {
+                margin: 0;
+                font-weight: normal;
+                font-size: 1em;
+            }
             & img {
                 height: 2em;
                 width: 2em;
+            }
+        }
+
+        &>.PRJ-tag {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2%;
+            & > h3 {
+                margin: 0;
+                font-weight: normal;
+                font-size: 1em;
             }
         }
     }

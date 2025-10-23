@@ -1,6 +1,8 @@
 {
 	"title": "Portfolio",
-	"desc": "Contexte: Pour ce projet j'ai du crée un portfolio contenant tout les autre projet de la formation comme dernier projet pour cette formation\n\nObjectifs: Les projet doit contenir et la description, leur lien github, leur demo si possible & les differente competence que ces projet m'on donner.\n\nStack technique: ExpressJS a été utliser comme backend avec l'utilisation du system de fichier comme base de donée pour facilement ajouter et suprimer des projet, react, react-modal & Sass a été utiliser pour le frontend."
+	"desc": "Contexte: Pour ce projet j'ai du crée un portfolio contenant tout les autre projet de la formation comme dernier projet pour cette formation\n\nObjectifs: Les projet doit contenir et la description, leur lien github, leur demo si possible & les differente competence que ces projet m'on donner.\n\nStack technique: ExpressJS a été utliser comme backend avec l'utilisation du system de fichier comme base de donée pour facilement ajouter et suprimer des projet, react, react-modal & Sass a été utiliser pour le frontend.",
+	"comp": [""],
+	"tag": ["Backend", "Frontend", "React", "Sass", "ExpressJS", "SEO", "Accesibilité"]
 }
 
 

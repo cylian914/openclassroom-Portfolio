@@ -10,7 +10,7 @@ import ReactModal from "react-modal";
 function SlideShow({ images }) {
     let [openModal, setOpenModal] = useState(false);
 
-    if (images.length === 0)
+    if (!images || images.length === 0)
         images = [{ image: noImage, text: "no image" }];
     const [indexImage, setIndexImage] = useState(0);
 

@@ -1,8 +1,32 @@
+@use "/src/var.scss" as vr;
+
 .Projects-title {
     text-align: center;
 }
+.Projects-tags {
+    display: flex;
+    justify-content: space-around;
+    gap: 2%
+}
+
 .Projects-prj {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5%;
+}
+
+.invisible {
+    display: none;
+}
+
+.Projects-tag {
+    text-align: center;
+    width: 100%;
+    background-color: vr.$background-color-projet;
+}
+
+.Projects-tag-enable {
+    border-radius: 10%;
+    background-color: vr.$background-color-selected;
+    border-color: vr.$background-color-nav;
 }
